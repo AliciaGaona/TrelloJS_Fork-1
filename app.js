@@ -13,3 +13,7 @@ trello.addCard(cardTitle, "LaunchX Card Description", "IdList",
       console.log('Added card:', trelloCard);
     }
   });
+
+
+  const addCard=Trello.prototype.addCard();
+  console.log(addCard)
